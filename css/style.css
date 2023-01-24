@@ -1,0 +1,505 @@
+html {
+    box-sizing: border-box;
+   }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: #333333;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "Muller";
+    /* меняем url на local чтобы, если на устройстве уже есть эти шрифты, тогда использовались они */
+    src: local("Muller-Regular"),
+        url("../fonts/MullerRegular.woff2") format("woff2"),
+        url("../fonts/MullerRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    /* меняем url на local чтобы, если на устройстве уже есть эти шрифты, тогда использовались они */
+    src: local("Muller-Medium"),
+        url("../fonts/MullerMedium.woff2") format("woff2"),
+        url("../fonts/MullerMedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    /* меняем url на local чтобы, если на устройстве уже есть эти шрифты, тогда использовались они */
+    src: local("Muller-Light"),
+        url("../fonts/MullerLight.woff2") format("woff2"),
+        url("../fonts/MullerLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Muller";
+    /* меняем url на local чтобы, если на устройстве уже есть эти шрифты, тогда использовались они */
+    src: local("Muller-Bold"),
+        url("../fonts/MullerBold.woff2") format("woff2"),
+        url("../fonts/MullerBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    min-width: 1200px;
+    background-color: #E5E5E5;
+    padding: 30px 0;
+    font-family: "Muller", sans-serif;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 13px 20px;
+    color:#CC9933;
+    border: 1px solid #CC9933;
+    ;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+
+/* .header {
+    margin-bottom: 70px;
+} */
+
+.link {
+    color: #CC9933;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+   }
+
+
+/* HEADER */
+   .header-container {
+    margin-bottom: 70px;
+   }
+
+.header-top {
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 261px;
+    height: 54px;
+    margin-right: 40px;
+}
+
+.header-phone {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.header-top-right {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background-image: url(../img/Vector.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
+.nav {
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.header-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* SPECIAL OFFERS  */
+
+.special-offers-container {
+    margin-bottom: 70px;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 40px;
+
+}
+
+.special-offers-item {
+    width: 573px;
+}
+
+.special-offers-item-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.special-offers-item-lux {
+    width: 573px;
+    padding: 211px 234px 41px 40px;
+    flex-direction: column;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.special-offers-item-title-lux {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+
+}
+
+.special-offers-item-price-lux {
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.place-offers {
+    flex-direction: column;
+    width: 573px;
+    height: 258px;
+}
+
+.special-offers-list {
+    justify-content: space-between;
+}
+
+.place-offers-item {
+    flex-direction: column;
+    padding: 40px 108px 40px 45px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.place-offers-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.special-offers-item {
+    padding: 45px;
+}
+
+.maldiv-img {
+    background-image: url(../img/maldiv.jpg);
+}
+
+.krit-img {
+    background-image: url(../img/krit.jpg);
+}
+
+.lux-img {
+    background-image: url(../img/lux.jpg);
+}
+
+.special-offers-item-price {
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.special-offers-item-link {
+    width: 102px;
+    background-image: url(../img/rectangle-1.svg);
+    background-repeat: no-repeat;
+    background-position:right center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F0BF5F;
+}
+
+.services-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.special-offers-item {
+    flex-direction: column;
+}
+
+/* .special-offers-right-block {
+height: 540px;
+} */
+
+/* ABOUT US */
+
+.about-us {
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.about-us-title {
+    margin-bottom: 11px;
+}
+
+.about-us-descr {
+    margin: 0;
+    max-width: 888px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+/* SERVICES */
+
+.services {
+    margin-bottom: 70px;
+}
+
+.services-list {
+    flex-wrap: wrap;
+}
+
+.services-item:not(:nth-child(2n)) {
+    margin-right: 24px;
+}
+
+.services-item {
+    width: 573px;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.div-services-item {
+    flex-direction: column;
+    padding: 191px 126px 50px 45px;
+}
+
+.services-link {
+    background-image: url(../img/Rectangle-2.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: fit-content;
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;
+}
+
+.services-item-1{
+    margin-bottom: 23px;
+    background-color: #FFFFFF;
+    background-image: url(../img/services-photo-1.jpg);
+
+}
+
+.services-item-2{
+    background-color: #FFFFFF;
+    background-image: url(../img/services-photo-2.jpg);
+    margin-bottom: 23px;
+}
+
+.services-item-3{
+    background-color: #FFFFFF;
+    background-image: url(../img/services-photo-3.jpg); 
+}
+
+.services-item-4{
+    background-color: #FFFFFF;
+    background-image: url(../img/services-photo-4.jpg); 
+}
+
+/* ADVANTAGES */
+.advantages {
+    margin-bottom: 48px;
+}
+
+.advantages-title {
+    margin-bottom: 30px;
+}
+
+.advantages-list {
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    margin-bottom: 22px;
+    width: 276px;
+    padding: 40px 42px 41px 45px;
+    background: #FFFFFF ;
+    border-radius: 15px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+    margin-right: 22px;
+}
+
+.advantages-item-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.advantages-item-descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+/* PLACEMENT */
+
+.placement-list {
+    flex-wrap: wrap;
+}
+
+.placement-image {
+    margin-bottom: 35px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.placement-item {
+    width: 374px;
+    height: 440px;
+    margin-bottom: 23px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.placement-item:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.placement-dscr {
+    padding-left: 45px;
+}
+
+.placement-price {
+    margin-right: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #999999;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.hotel-name {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.hotel-city {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
+
+.placement-item-9 {
+    width: 373px;
+    height: 440px;
+    background-image: url(../img/placement-9.svg);
+    border-radius: 15px;
+}
+
+.placement-item-div {
+    padding: 373px 54px 27px 54px;
+}
+
+.placement-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    padding-right: 15px;
+    background-image: url(../img/Rectangle-3.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
