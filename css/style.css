@@ -438,13 +438,17 @@ height: 540px;
 .placement-item {
     width: 374px;
     height: 440px;
-    margin-bottom: 23px;
+    
     background: #FFFFFF;
     border-radius: 15px;
 }
 
 .placement-item:not(:nth-child(3n)) {
     margin-right: 24px;
+}
+
+.placement-item:nth-child(-n+6) {
+    margin-bottom: 23px;
 }
 
 .placement-dscr {
