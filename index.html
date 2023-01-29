@@ -140,7 +140,6 @@
                 </h2>
                 <ul class="list-reset services-list flex">
                     <li class="services-item services-item-1">
-                        <!-- Возможно избражения нужно делать через CSS -->
                         <div class="div-services-item flex">
                             <a href="" class="services-link">
                                 Эксклюзивное обслуживание
@@ -574,7 +573,7 @@
                 </ul>
             </div>
         </section>
-        <!-- PLACEMENT -->
+        <!-- SECTION PLACEMENT -->
         <section id="placement" class="placement">
             <div class="container">
                 <h2 class="section-title placement-title">
@@ -846,6 +845,54 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <!-- SECTION TOUR -->
+        <section id="tour" class="tour">
+            <div class="container">
+                <div class="tour-container">
+                    <h2 class="section-title tour-title">
+                        Хочу в тур
+                    </h2>
+                    <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+                        <div class="tour-form flex">
+                            <ul class="form-list list-reset flex">
+                                <li class="form-item form-cities flex">
+                                    <span class="form-span">Город вылета</span>
+                                    <select class="form-select btn-reset" name="город вылета">
+                                        <option value="Москва">Москва</option>
+                                        <option value="Санкт-Пететрбург" selected>Санкт-Пететрбург</option>
+                                        <option value="Брянск">Брянск</option>
+                                    </select>
+                                </li>
+                                <li class="form-item form-countries flex">
+                                    <span class="form-span">Страна</span>
+                                    <select class="form-select btn-reset" name="страна">
+                                        <option value="Испания">Испания</option>
+                                        <option value="Италия">Италия</option>
+                                        <option value="Австралия" selected>Австралия</option>
+                                    </select>
+                                </li>
+                                <li class="form-item form-date flex">
+                                    <span class="form-span">Дата прибытия</span>
+                                    <input class="form-input btn-reset" type="date" name="date" required>
+                                </li>
+                                <li class="form-item form-night-quantity flex">
+                                    <span class="form-span">Ночей</span>
+                                    <input class="form-input btn-reset" type="number" name="night-quantity" placeholder="6" required>
+                                </li>
+                                <li class="form-item form-tourists-quantity flex">
+                                    <span class="form-span">Туристы</span>
+                                    <input class="form-input btn-reset" type="number" name="tourists-quantity" placeholder="2" required>
+                                </li>
+                                <li class="form-item">
+                                    <button class="btn btn-reset">Найти</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                    
+                </div>                               
             </div>
         </section>
     </main>

@@ -76,7 +76,7 @@ img {
 
 body {
     min-width: 1200px;
-    background-color: #E5E5E5;
+    background-color: #E9E9E9;
     padding: 30px 0;
     font-family: "Muller", sans-serif;
 }
@@ -325,7 +325,7 @@ height: 540px;
 /* SERVICES */
 
 .services {
-    margin-bottom: 70px;
+    margin-bottom: 47px;
 }
 
 .services-list {
@@ -343,6 +343,10 @@ height: 540px;
     object-fit: cover;
     border-radius: 15px;
 }
+
+/* .services-item:nth-child(-n+2) {
+    margin-bottom: 23px;
+} */
 
 .div-services-item {
     flex-direction: column;
@@ -369,17 +373,19 @@ height: 540px;
 }
 
 .services-item-2{
+    margin-bottom: 23px;
     background-color: #FFFFFF;
     background-image: url(../img/services-photo-2.jpg);
-    margin-bottom: 23px;
-}
+    }
 
 .services-item-3{
+    margin-bottom: 23px;
     background-color: #FFFFFF;
     background-image: url(../img/services-photo-3.jpg); 
 }
 
 .services-item-4{
+    margin-bottom: 23px;
     background-color: #FFFFFF;
     background-image: url(../img/services-photo-4.jpg); 
 }
@@ -409,6 +415,10 @@ height: 540px;
     margin-right: 22px;
 }
 
+/* .advantages-item:nth-child(-n+4) {
+    margin-bottom: 23px;
+} */
+
 .advantages-item-icon {
     width: 70px;
     height: 70px;
@@ -426,6 +436,10 @@ height: 540px;
 
 /* PLACEMENT */
 
+.placement {
+    margin-bottom: 47px;
+}
+
 .placement-list {
     flex-wrap: wrap;
 }
@@ -438,7 +452,7 @@ height: 540px;
 .placement-item {
     width: 374px;
     height: 440px;
-    
+    margin-bottom: 23px;
     background: #FFFFFF;
     border-radius: 15px;
 }
@@ -447,9 +461,9 @@ height: 540px;
     margin-right: 24px;
 }
 
-.placement-item:nth-child(-n+6) {
+/* .placement-item:nth-child(-n+6) {
     margin-bottom: 23px;
-}
+} */
 
 .placement-dscr {
     padding-left: 45px;
@@ -506,4 +520,65 @@ height: 540px;
     background-image: url(../img/Rectangle-3.svg);
     background-repeat: no-repeat;
     background-position: center right;
+}
+
+/* TOUR */
+
+.tour-container {
+    background: #E5E5E5;;
+    border-radius: 15px;
+}
+
+.tour-title {
+    padding-top: 38px;
+}
+
+.tour-form {
+    width: 1080px;
+    height: 106px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.form-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #E1E1E1;
+
+
+}
+
+.form-cities {
+    width: 209px;
+}
+
+.form-countries {
+    width: 210px;
+}
+
+.form-date,.form-night-quantity,.form-tourists-quantity {
+    width: 162px;
+}
+
+.form-span {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.form-select.form-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.form-item {
+    flex-direction: column;
 }
