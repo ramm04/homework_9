@@ -525,6 +525,8 @@ height: 540px;
 /* TOUR */
 
 .tour-container {
+    margin-bottom: 70px;
+    padding-bottom: 45px;
     background: #E5E5E5;;
     border-radius: 15px;
 }
@@ -534,34 +536,47 @@ height: 540px;
 }
 
 .tour-form {
+    margin: auto;
+    padding-left: 28px;
+    padding-right: 28px;
     width: 1080px;
     height: 106px;
     align-items: center;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: auto;
     background: #FFFFFF;
     border-radius: 15px;
 }
 
+.form-list {
+    margin: auto;
+}
+
 .form-item {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: 1px solid #E1E1E1;
-
-
+    flex-direction: column;
 }
 
-.form-cities {
-    width: 209px;
+.form-cities,.form-countries {
+    width: 169px;
+    margin-right: 41px;
 }
 
-.form-countries {
-    width: 210px;
+.form-date,.form-night-quantity {
+    width: 121px;
+    margin-right: 41px;
 }
 
-.form-date,.form-night-quantity,.form-tourists-quantity {
-    width: 162px;
+.form-tourists-quantity {
+    width: 121px;
+    margin-right: 51px;
+}
+
+.form-night-quantity,.form-tourists-quantity {
+    border-bottom: 1px solid #E1E1E1;;
+}
+
+/* Для видимости стрелок в input type="number" */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+opacity: 0.5;
 }
 
 .form-span {
@@ -579,6 +594,13 @@ height: 540px;
     color: #000000;
 }
 
-.form-item {
-    flex-direction: column;
+.btn-form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* SECTION CONTACTS */
+
+.contacts-container {
+    margin-bottom: 50px;
 }
