@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <!-- HEADER -->
     <header class="header">
@@ -879,11 +881,13 @@
                                 </li>
                                 <li class="form-item form-night-quantity flex">
                                     <span class="form-span">Ночей</span>
-                                    <input class="form-input btn-reset" type="number" name="night-quantity" placeholder="6" required>
+                                    <input class="form-input btn-reset" type="number" name="night-quantity"
+                                        placeholder="6" required>
                                 </li>
                                 <li class="form-item form-tourists-quantity flex">
                                     <span class="form-span">Туристы</span>
-                                    <input class="form-input btn-reset" type="number" name="tourists-quantity" placeholder="2" required>
+                                    <input class="form-input btn-reset" type="number" name="tourists-quantity"
+                                        placeholder="2" required>
                                 </li>
                                 <li class="form-item form-item-btn">
                                     <button class="btn btn-form btn-reset">Найти</button>
@@ -891,18 +895,75 @@
                             </ul>
                         </div>
                     </form>
-                    
-                </div>                               
+
+                </div>
             </div>
         </section>
         <!-- SECTION CONTACTS -->
-        <section id="contacts" class="contacts">
-            <div class="container">
-                <h2 class="section-title">
-                    Контакты
-                </h2>
+        <section id="contacts" class="contacts container">
+            <h2 class="section-title">
+                Контакты
+            </h2>
+            <div class="div-contacts">
+                <ul class="list-reset">
+                    <div class="div-contacts-item address-item">
+                        <li class="contacts-item flex">
+                            <h4 class="contacts-title address-title">
+                                Адрес
+                            </h4>
+                            <address class="contacts-address">
+                                Москва, улица Юности,<br> дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
+                            </address>
+                        </li>
+                    </div>
+                    <div class="div-contacts-item div-phone-item ">
+                        <li class="contacts-item flex">
+                            <h4 class="contacts-title phone-title">
+                                Телефоны
+                            </h4>
+                            <div class="phone-item flex">
+                                <a href="tel:+74995356434" class="link-phone">
+                                    +7&nbsp;499 535-64-34
+                                </a>
+                                <a href="tel:+74950050544" class="link-phone">
+                                    +7&nbsp;495 005-05-44
+                                </a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="div-contacts-item div-email-item">
+                        <li class="contacts-item flex">
+                            <h4 class="contacts-title email-title">
+                                Email
+                            </h4>
+                            <div class="email-item flex">
+                                <a href="mailto:lg.oona@mail.ru">
+                                    lg.oona@mail.ru
+                                </a>
+                                <a href="mailto:hotels.ln@mail.ru">
+                                    hotels.ln@mail.ru
+                                </a>
+                            </div>   
+                        </li>
+                    </div>
+                    <div class="div-contacts-item div-schedule-item">
+                        <li class="contacts-item flex">
+                            <h4 class="contacts-title schedule-title">
+                                График
+                            </h4>
+                            <p class="schedule-descr">
+                                Понедельник-пятница,<br> с&nbsp;10:00 до&nbsp;19:00
+                            </p>
+                        </li>
+                    </div>
+                    
+                    <li class="contacts-item">
+                        <button>Построить маршрут</button>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
 </body>
+
 </html>

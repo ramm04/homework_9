@@ -600,7 +600,83 @@ opacity: 0.5;
 }
 
 /* SECTION CONTACTS */
-
-.contacts-container {
-    margin-bottom: 50px;
+.contacts-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
 }
+
+.div-contacts {
+    height: 618px;
+    padding: 45px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    background-image: url(../img/Layer.jpg);
+    background-repeat: no-repeat;
+    /* чтобы картинка имела отступ от правой границы блока */
+    background-position: center right 45px; 
+}
+
+.div-contacts-item {
+    width: 375px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.contacts-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.address-title {
+    margin-right: 83px;
+}
+
+.div-phone-item {
+    padding-top: 25px;
+}
+
+.phone-title {
+    margin-right: 47px;
+}
+
+.phone-item {
+    flex-direction: column;
+}
+
+.div-email-item {
+    padding-top: 25px;
+}
+
+.email-title {
+    margin-right: 93px;
+}
+
+.email-item {
+    flex-direction: column;
+}
+
+.div-schedule-item {
+    padding-top: 25px;
+}
+
+.schedule-title {
+    margin-right: 74px;
+}
+
+.schedule-descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+
+
+    
