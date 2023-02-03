@@ -600,6 +600,10 @@ opacity: 0.5;
 }
 
 /* SECTION CONTACTS */
+.contacts {
+    margin-bottom: 40px;
+}
+
 .contacts-title{
     margin: 0;
     font-weight: 700;
@@ -648,6 +652,13 @@ opacity: 0.5;
     flex-direction: column;
 }
 
+.link-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+
 .div-email-item {
     padding-top: 25px;
 }
@@ -656,12 +667,27 @@ opacity: 0.5;
     margin-right: 93px;
 }
 
+.contacts-span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #999999;
+}
+
 .email-item {
     flex-direction: column;
 }
 
+.link-email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+
 .div-schedule-item {
     padding-top: 25px;
+    margin-bottom: 45px;
 }
 
 .schedule-title {
@@ -676,7 +702,95 @@ opacity: 0.5;
     color: #000000;
 }
 
+.contacts-btn {
+    padding: 27px 30px;
+}
 
+/* FOOTER */
+.footer-container {
+    height: 341px;
+    padding: 45px;
+    background: #333333;
+    border-radius: 15px;
+    background-image: url(../img/footer-sun.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right 177px;
+}
+
+.footer-left {
+    width: 302px;
+    margin-right: 125px;
+}
+
+.footer-left-p {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #FFFFFF;
+}
+
+.footer-left-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+}
+
+.footer-center {
+    flex-direction: column;
+    margin-right: 269px;
+}
+
+.footer-address {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-phone-item {
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.footer-email-item {
+    flex-direction: column;
+}
+
+.div-footer-right {
+    flex-direction: column;
+}
+
+.footer-right {
+    flex-direction: column;
+}
+
+.social-link {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 25px;
+    height: 25px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-link-owl {
+    background-image: url(../img/owl.svg);
+}
+
+.social-link-ok {
+    background-image: url(../img/ok.svg);
+}
+
+.social-link-vk {
+    background-image: url(../img/vk.svg)
+}
 
 
     
