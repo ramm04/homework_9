@@ -905,10 +905,10 @@
             <h2 class="section-title">
                 Контакты
             </h2>
-            <div class="div-contacts">
+            <div class="div-contacts flex">
                 <ul class="list-reset">
-                    <div class="div-contacts-item address-item">
-                        <li class="contacts-item flex">
+                    <!-- <div class="div-contacts-item address-item"> -->
+                        <li class="contacts-item contacts-address-item flex">
                             <h4 class="contacts-title address-title">
                                 Адрес
                             </h4>
@@ -916,9 +916,9 @@
                                 Москва, улица Юности,<br> дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
                             </address>
                         </li>
-                    </div>
-                    <div class="div-contacts-item div-phone-item ">
-                        <li class="contacts-item flex">
+                    <!-- </div> -->
+                    <!-- <div class="div-contacts-item div-phone-item "> -->
+                        <li class="contacts-item contacts-phone-item flex">
                             <h4 class="contacts-title phone-title">
                                 Телефоны
                             </h4>
@@ -931,9 +931,9 @@
                                 </a>
                             </div>
                         </li>
-                    </div>
-                    <div class="div-contacts-item div-email-item">
-                        <li class="contacts-item flex">
+                    <!-- </div> -->
+                    <!-- <div class="div-contacts-item div-email-item"> -->
+                        <li class="contacts-item contacts-email-item flex">
                             <h4 class="contacts-title email-title">
                                 Email
                             </h4>
@@ -952,9 +952,10 @@
                                 </span>
                             </div>   
                         </li>
-                    </div>
-                    <div class="div-contacts-item div-schedule-item">
-                        <li class="contacts-item flex">
+                    <!-- </div> -->
+                    <!--НЕПРАВИЛЬНО ОБОРАЧИВАТЬ ПУНКТЫ СПИСКА В ДИВЫ 
+                        <div class="div-contacts-item div-schedule-item"> -->
+                        <li class="contacts-item contacts-schedule-item flex">
                             <h4 class="contacts-title schedule-title">
                                 График
                             </h4>
@@ -962,13 +963,11 @@
                                 Понедельник-пятница,<br> с&nbsp;10:00 до&nbsp;19:00
                             </p>
                         </li>
-                    </div>                   
-                    <li class="contacts-item">
-                        <button class="btn contacts-btn btn-reset">
-                            Построить маршрут
-                        </button>
-                    </li>
+                    <!-- </div> -->                     
                 </ul>
+                <button class="btn contacts-btn btn-reset">
+                    Построить маршрут
+                </button>
             </div>
         </section>
     </main>
