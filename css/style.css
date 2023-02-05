@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-   }
+}
 
 *,
 *::before,
@@ -99,7 +99,7 @@ body {
     font-size: 16px;
     line-height: 16px;
     padding: 13px 20px;
-    color:#CC9933;
+    color: #CC9933;
     border: 1px solid #CC9933;
     ;
     border-radius: 10px;
@@ -117,13 +117,13 @@ body {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-   }
+}
 
 
 /* HEADER */
-   .header-container {
+.header-container {
     margin-bottom: 70px;
-   }
+}
 
 .header-top {
     margin-bottom: 30px;
@@ -275,7 +275,7 @@ body {
     width: 102px;
     background-image: url(../img/rectangle-1.svg);
     background-repeat: no-repeat;
-    background-position:right center;
+    background-position: right center;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
@@ -353,29 +353,29 @@ body {
     color: #CC9933;
 }
 
-.services-item-1{
+.services-item-1 {
     margin-bottom: 23px;
     background-color: #FFFFFF;
     background-image: url(../img/services-photo-1.jpg);
 
 }
 
-.services-item-2{
+.services-item-2 {
     margin-bottom: 23px;
     background-color: #FFFFFF;
     background-image: url(../img/services-photo-2.jpg);
 }
 
-.services-item-3{
+.services-item-3 {
     margin-bottom: 23px;
     background-color: #FFFFFF;
-    background-image: url(../img/services-photo-3.jpg); 
+    background-image: url(../img/services-photo-3.jpg);
 }
 
-.services-item-4{
+.services-item-4 {
     margin-bottom: 23px;
     background-color: #FFFFFF;
-    background-image: url(../img/services-photo-4.jpg); 
+    background-image: url(../img/services-photo-4.jpg);
 }
 
 /* ADVANTAGES */
@@ -395,7 +395,7 @@ body {
     margin-bottom: 22px;
     width: 276px;
     padding: 40px 42px 41px 45px;
-    background: #FFFFFF ;
+    background: #FFFFFF;
     border-radius: 15px;
 }
 
@@ -507,7 +507,7 @@ body {
 .tour-container {
     margin-bottom: 70px;
     padding-bottom: 45px;
-    background: #E5E5E5;;
+    background: #E5E5E5;
     border-radius: 15px;
 }
 
@@ -522,41 +522,39 @@ body {
     width: 1080px;
     height: 106px;
     align-items: center;
+    justify-content: space-between;
     background: #FFFFFF;
     border-radius: 15px;
-}
-
-.form-list {
-    margin: auto;
 }
 
 .form-item {
     flex-direction: column;
 }
 
-.form-cities,.form-countries {
+.form-item:not(:last-child) {
+    margin-right: 41px;
+}
+
+.form-cities,
+.form-countries {
     width: 169px;
-    margin-right: 41px;
 }
 
-.form-date,.form-night-quantity {
-    width: 121px;
-    margin-right: 41px;
-}
-
+.form-date,
+.form-night-quantity,
 .form-tourists-quantity {
     width: 121px;
-    margin-right: 51px;
 }
 
-.form-night-quantity,.form-tourists-quantity {
-    border-bottom: 1px solid #E1E1E1;;
+.form-night-quantity,
+.form-tourists-quantity {
+    border-bottom: 1px solid #E1E1E1;
 }
 
 /* Для видимости стрелок в input type="number" */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .form-span {
@@ -584,7 +582,7 @@ opacity: 0.5;
     margin-bottom: 40px;
 }
 
-.contacts-title{
+.contacts-title {
     margin: 0;
     font-weight: 700;
     font-size: 20px;
@@ -601,12 +599,12 @@ opacity: 0.5;
     background-image: url(../img/Layer.jpg);
     background-repeat: no-repeat;
     /* чтобы картинка имела отступ от правой границы блока */
-    background-position: center right 45px; 
+    background-position: center right 45px;
 }
 
 .contacts-item {
     width: 375px;
-    margin-bottom: 25px;     
+    margin-bottom: 25px;
     border-bottom: 1px solid #E9E9E9;
     padding-bottom: 23px;
 }
@@ -770,6 +768,3 @@ opacity: 0.5;
 .social-link-vk {
     background-image: url(../img/vk.svg)
 }
-
-
-    
